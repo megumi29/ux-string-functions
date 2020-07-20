@@ -10,7 +10,11 @@
 
 function isEmptyString(string) {
   let result;
-  // Add your code here.
+  if (string.length > 0) {
+    result = false;
+  } else {
+    result = true;
+  }
   return result;
 }
 
