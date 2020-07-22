@@ -81,7 +81,6 @@ function trimSentence(text, maxLength) {
   if (text.length > maxLength) {
     let theSlice = text.slice(0, maxLength - 3);
     result = theSlice + "…";
-    console.log(result);
   } else {
     result = text;
   }
